@@ -7,8 +7,7 @@
   },
   "main": "mtproxy.js",
   "scripts": {
-    "start": "pm2 start mtproxy.js -i max",
-    "test": "pm2 start mtproxy.js -i max"
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "dependencies": {
     "ejs": "^2.5.6",
