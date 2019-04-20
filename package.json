@@ -5,7 +5,7 @@
   "engines": {
     "node": "10.x"
   },
-  "main": "mtproxy.js",
+  "main": "app.js",
   "scripts": {
     "start": "pm2-runtime start app.js"
   },
